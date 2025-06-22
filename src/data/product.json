@@ -1,0 +1,82 @@
+[
+    {
+      "id": "1",
+      "name": "Premium Wireless Headphones",
+      "price": 2999,
+      "image": "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=500",
+      "quantity": 15,
+      "variety": "Black, White, Blue",
+      "description": "High-quality wireless headphones with noise cancellation",
+      "category": "Electronics"
+    },
+    {
+      "id": "2",
+      "name": "Smart Fitness Watch",
+      "price": 4999,
+      "image": "https://images.pexels.com/photos/393047/pexels-photo-393047.jpeg?auto=compress&cs=tinysrgb&w=500",
+      "quantity": 8,
+      "variety": "Silver, Black, Rose Gold",
+      "description": "Advanced fitness tracking with heart rate monitor",
+      "category": "Electronics"
+    },
+    {
+      "id": "3",
+      "name": "Organic Coffee Beans",
+      "price": 599,
+      "image": "https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg?auto=compress&cs=tinysrgb&w=500",
+      "quantity": 25,
+      "variety": "Arabica, Robusta, Blend",
+      "description": "Premium organic coffee beans, freshly roasted",
+      "category": "Food & Beverages"
+    },
+    {
+      "id": "4",
+      "name": "Designer Backpack",
+      "price": 1899,
+      "image": "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=500",
+      "quantity": 12,
+      "variety": "Navy, Gray, Black",
+      "description": "Stylish and functional backpack for everyday use",
+      "category": "Fashion"
+    },
+    {
+      "id": "5",
+      "name": "Yoga Mat Premium",
+      "price": 1299,
+      "image": "https://images.pexels.com/photos/4056723/pexels-photo-4056723.jpeg?auto=compress&cs=tinysrgb&w=500",
+      "quantity": 20,
+      "variety": "Purple, Blue, Pink, Green",
+      "description": "Non-slip premium yoga mat with alignment markers",
+      "category": "Sports & Fitness"
+    },
+    {
+      "id": "6",
+      "name": "Ceramic Plant Pot Set",
+      "price": 899,
+      "image": "https://images.pexels.com/photos/4505144/pexels-photo-4505144.jpeg?auto=compress&cs=tinysrgb&w=500",
+      "quantity": 18,
+      "variety": "White, Terracotta, Gray",
+      "description": "Beautiful ceramic pots perfect for indoor plants",
+      "category": "Home & Garden"
+    },
+    {
+      "id": "7",
+      "name": "Bluetooth Speaker",
+      "price": 1599,
+      "image": "https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?auto=compress&cs=tinysrgb&w=500",
+      "quantity": 10,
+      "variety": "Black, Red, Blue",
+      "description": "Portable waterproof speaker with excellent sound quality",
+      "category": "Electronics"
+    },
+    {
+      "id": "8",
+      "name": "Leather Wallet",
+      "price": 799,
+      "image": "https://images.pexels.com/photos/5650026/pexels-photo-5650026.jpeg?auto=compress&cs=tinysrgb&w=500",
+      "quantity": 22,
+      "variety": "Brown, Black, Tan",
+      "description": "Genuine leather wallet with RFID protection",
+      "category": "Fashion"
+    }
+]
