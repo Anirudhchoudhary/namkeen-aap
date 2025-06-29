@@ -64,10 +64,10 @@ function App() {
         {/* Hero Section */}
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Discover Amazing Products
+            Indian Namkeen
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Shop from our curated collection of high-quality products with fast delivery and excellent customer service.
+            Shop from our curated collection of high-quality namkeen with fast delivery and excellent customer service.
           </p>
         </div>
 

@@ -1,10 +1,14 @@
+export interface Varieties {
+  quantity: number;
+  price: number;
+}
 export interface Product {
   id: string;
   name: string;
   price: number;
   image: string;
   quantity: number;
-  variety: string;
+  variety: Varieties[];
   description: string;
   category: string;
 }

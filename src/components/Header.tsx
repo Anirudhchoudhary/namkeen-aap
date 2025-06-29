@@ -13,7 +13,7 @@ export const Header: React.FC<HeaderProps> = ({ cartItemsCount, onCartToggle }) 
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center space-x-2">
             <Store className="w-8 h-8 text-blue-600" />
-            <h1 className="text-2xl font-bold text-gray-900">ShopEasy</h1>
+            <h1 className="text-2xl font-bold text-gray-900">Shop Namkeen</h1>
           </div>
           
           <button

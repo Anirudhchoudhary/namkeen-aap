@@ -9,6 +9,8 @@ interface ProductCardProps {
 
 export const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart }) => {
   const isOutOfStock = product.quantity === 0;
+  const [Variety, setVariety] = React.useState(product.variety);
+  const [selectedVariety, setSelectedVariety] = React.useState(Variety[0]);
 
   return (
     <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 overflow-hidden">
@@ -44,13 +46,19 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onAddToCart }
           </div>
           
           <div className="text-sm text-gray-600">
-            <span className="font-medium">Varieties:</span> {product.variety}
+            <span className="font-medium">Varieties:</span> 
+            <br />
+            {product.variety.map((variety) => (
+              <button className='border m-1 border-blue-300 rounded-md px-2 py-1 text-sm focus:ring-2 focus:ring-blue-500 focus:border-blue-500' key={variety.quantity} onClick={() => setSelectedVariety(variety)}>
+                {variety.quantity}
+              </button>
+            ))}
           </div>
         </div>
         
         <div className="flex items-center justify-between">
           <span className="text-2xl font-bold text-blue-600">
-            ₹{product.price.toLocaleString()}
+            ₹ {selectedVariety.price}
           </span>
           
           <button

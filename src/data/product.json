@@ -1,82 +1,596 @@
 [
     {
       "id": "1",
-      "name": "Premium Wireless Headphones",
-      "price": 2999,
-      "image": "https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=500",
+      "name": "Aloo Chudwa",
+      "image": "./images/Aloo_Chudwa.webp",
       "quantity": 15,
-      "variety": "Black, White, Blue",
-      "description": "High-quality wireless headphones with noise cancellation",
-      "category": "Electronics"
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 80
+        },
+        {
+          "quantity": "500gm",
+          "price": 150
+        },
+        {
+          "quantity": "1kg",
+          "price": 300
+        }
+      ],
+      "description": "Dadu's Aloo Chudwa is an innovative way to relish everyone's favorite vegetable, potato. Aloo chudwa or chopped and fried pieces of potato seasoned in spices and nuts is tasty and filling at the same time",
+      "category": "Namkeen"
     },
     {
       "id": "2",
-      "name": "Smart Fitness Watch",
-      "price": 4999,
-      "image": "https://images.pexels.com/photos/393047/pexels-photo-393047.jpeg?auto=compress&cs=tinysrgb&w=500",
-      "quantity": 8,
-      "variety": "Silver, Black, Rose Gold",
-      "description": "Advanced fitness tracking with heart rate monitor",
-      "category": "Electronics"
+      "name": "Banana Pepper Chips",
+      "image": "./images/Banana_Pepper_Chips.webp",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 90
+        },
+        {
+          "quantity": "500gm",
+          "price": 180
+        },
+        {
+          "quantity": "1kg",
+          "price": 350
+        }
+      ],
+      "description": "A banana chip (sometimes called banana crisp) is a deep-fried or dried, generally crispy slice of banana.",
+      "category": "Namkeen"
     },
     {
       "id": "3",
-      "name": "Organic Coffee Beans",
-      "price": 599,
-      "image": "https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg?auto=compress&cs=tinysrgb&w=500",
-      "quantity": 25,
-      "variety": "Arabica, Robusta, Blend",
-      "description": "Premium organic coffee beans, freshly roasted",
-      "category": "Food & Beverages"
+      "name": "Bombay Mixture",
+      "image": "./images/BombayMixture.webp",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 70
+        },
+        {
+          "quantity": "500gm",
+          "price": 130
+        },
+        {
+          "quantity": "1kg",
+          "price": 250
+        }
+      ],
+      "description": "Bombay Mixture, also known as Bombay mix, is an Indian snack mix that consists of a variable mixture of spicy dried ingredients, such as sev, fried lentils, peanuts, chickpeas, chickpea flour ganthiya, corn, vegetable oil, puffed rice, fried onion, and curry leaves.",
+      "category": "Namkeen"
     },
     {
       "id": "4",
-      "name": "Designer Backpack",
-      "price": 1899,
-      "image": "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg?auto=compress&cs=tinysrgb&w=500",
-      "quantity": 12,
-      "variety": "Navy, Gray, Black",
-      "description": "Stylish and functional backpack for everyday use",
-      "category": "Fashion"
+      "name": "Butter Murukul",
+      "image": "./images/Butter_Murukul.webp",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 90
+        },
+        {
+          "quantity": "500gm",
+          "price": 180
+        },
+        {
+          "quantity": "1kg",
+          "price": 360
+        }
+      ],
+      "description": "Butter Murukku recipe or Benne Chakli - light, crunchy, delicious, buttery festive snack made with butter, rice flour.",
+      "category": "Namkeen"
     },
     {
       "id": "5",
-      "name": "Yoga Mat Premium",
-      "price": 1299,
-      "image": "https://images.pexels.com/photos/4056723/pexels-photo-4056723.jpeg?auto=compress&cs=tinysrgb&w=500",
-      "quantity": 20,
-      "variety": "Purple, Blue, Pink, Green",
-      "description": "Non-slip premium yoga mat with alignment markers",
-      "category": "Sports & Fitness"
+      "name": "Chabina Mixture",
+      "image": "./images/Chabina_Mixture.webp",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 80
+        },
+        {
+          "quantity": "500gm",
+          "price": 150
+        },
+        {
+          "quantity": "1kg",
+          "price": 300
+        }
+      ],
+      "description": "",
+      "category": "Namkeen"
     },
     {
       "id": "6",
-      "name": "Ceramic Plant Pot Set",
-      "price": 899,
-      "image": "https://images.pexels.com/photos/4505144/pexels-photo-4505144.jpeg?auto=compress&cs=tinysrgb&w=500",
-      "quantity": 18,
-      "variety": "White, Terracotta, Gray",
-      "description": "Beautiful ceramic pots perfect for indoor plants",
-      "category": "Home & Garden"
+      "name": "Chana Jore",
+      "image": "./images/Chana_Jore.webp",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 80
+        },
+        {
+          "quantity": "500gm",
+          "price": 150
+        },
+        {
+          "quantity": "1kg",
+          "price": 300
+        }
+      ],
+      "description": "",
+      "category": "Namkeen"
     },
     {
       "id": "7",
-      "name": "Bluetooth Speaker",
-      "price": 1599,
-      "image": "https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?auto=compress&cs=tinysrgb&w=500",
-      "quantity": 10,
-      "variety": "Black, Red, Blue",
-      "description": "Portable waterproof speaker with excellent sound quality",
-      "category": "Electronics"
+      "name": "Dal Bizzi",
+      "image": "./images/Dal_Bizzi.webp",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 90
+        },
+        {
+          "quantity": "500gm",
+          "price": 180
+        },
+        {
+          "quantity": "1kg",
+          "price": 350
+        }
+      ],
+      "description": "",
+      "category": "Namkeen"
     },
     {
       "id": "8",
-      "name": "Leather Wallet",
-      "price": 799,
-      "image": "https://images.pexels.com/photos/5650026/pexels-photo-5650026.jpeg?auto=compress&cs=tinysrgb&w=500",
-      "quantity": 22,
-      "variety": "Brown, Black, Tan",
-      "description": "Genuine leather wallet with RFID protection",
-      "category": "Fashion"
+      "name": "Dal Mot",
+      "image": "./images/Dal_Mot.webp",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 80
+        },
+        {
+          "quantity": "500gm",
+          "price": 150
+        },
+        {
+          "quantity": "1kg",
+          "price": 300
+        }
+      ],
+      "description": "",
+      "category": "Namkeen"
+    },
+    {
+      "id": "9",
+      "name": "Delhi Chudwa",
+      "image": "./images/Delhi_Chudwa.webp",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 80
+        },
+        {
+          "quantity": "500gm",
+          "price": 150
+        },
+        {
+          "quantity": "1kg",
+          "price": 300
+        }
+      ],
+      "description": "",
+      "category": "Namkeen"
+    },
+    {
+      "id": "10",
+      "name": "Dry Samosa",
+      "image": "./images/Dry_Samosa.webp",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 90
+        },
+        {
+          "quantity": "500gm",
+          "price": 170
+        },
+        {
+          "quantity": "1kg",
+          "price": 340
+        }
+      ],
+      "description": "",
+      "category": "Namkeen"
+    },
+    {
+      "id": "11",
+      "name": "Dry Kachori",
+      "image": "./images/Dry_Kachori.webp",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 80
+        },
+        {
+          "quantity": "500gm",
+          "price": 150
+        },
+        {
+          "quantity": "1kg",
+          "price": 300
+        }
+      ],
+      "description": "",
+      "category": "Namkeen"
+    },
+    {
+      "id": "12",
+      "name": "Ghatiya",
+      "image": "./images/Ghatiya.webp",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 70
+        },
+        {
+          "quantity": "500gm",
+          "price": 150
+        },
+        {
+          "quantity": "1kg",
+          "price": 300
+        }
+      ],
+      "description": "",
+      "category": "Namkeen"
+    },
+    {
+      "id": "13",
+      "name": "Kashmiri DryFruit Mixture",
+      "image": "./images/Kashmiri_Dryfruit_Mixture.webp",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 80
+        },
+        {
+          "quantity": "500gm",
+          "price": 150
+        },
+        {
+          "quantity": "1kg",
+          "price": 300
+        }
+      ],
+      "description": "",
+      "category": "Namkeen"
+    },
+    {
+      "id": "14",
+      "name": "Khara Mixture",
+      "image": "./images/Khara_Mixture.webp",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 80
+        },
+        {
+          "quantity": "500gm",
+          "price": 150
+        },
+        {
+          "quantity": "1kg",
+          "price": 300
+        }
+      ],
+      "description": "",
+      "category": "Namkeen"
+    },
+    {
+      "id": "15",
+      "name": "Masala Para",
+      "image": "./images/Masala_Para.webp",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 80
+        },
+        {
+          "quantity": "500gm",
+          "price": 150
+        },
+        {
+          "quantity": "1kg",
+          "price": 300
+        }
+      ],
+      "description": "",
+      "category": "Namkeen"
+    },
+    {
+      "id": "16",
+      "name": "Masala Tasty Peanuts",
+      "image": "./images/Masala_Tasty.webp",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 80
+        },
+        {
+          "quantity": "500gm",
+          "price": 150
+        },
+        {
+          "quantity": "1kg",
+          "price": 300
+        }
+      ],
+      "description": "",
+      "category": "Namkeen"
+    },
+    {
+      "id": "17",
+      "name": "Namak Para",
+      "image": "./images/Namak_Para.webp",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 80
+        },
+        {
+          "quantity": "500gm",
+          "price": 150
+        },
+        {
+          "quantity": "1kg",
+          "price": 300
+        }
+      ],
+      "description": "",
+      "category": "Namkeen"
+    },
+    {
+      "id": "18",
+      "name": "Navratan Mixture",
+      "image": "./images/Navratan_Mixture.webp",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 80
+        },
+        {
+          "quantity": "500gm",
+          "price": 150
+        },
+        {
+          "quantity": "1kg",
+          "price": 300
+        }
+      ],
+      "description": "",
+      "category": "Namkeen"
+    },
+    {
+      "id": "18",
+      "name": "Papdi Mixture",
+      "image": "./images/Papdi_Mixture.webp",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 80
+        },
+        {
+          "quantity": "500gm",
+          "price": 150
+        },
+        {
+          "quantity": "1kg",
+          "price": 300
+        }
+      ],
+      "description": "",
+      "category": "Namkeen"
+    },
+    {
+      "id": "19",
+      "name": "Pappu Chekkalu",
+      "image": "./images/Pappu_Chekkalu.webp",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 80
+        },
+        {
+          "quantity": "500gm",
+          "price": 150
+        },
+        {
+          "quantity": "1kg",
+          "price": 300
+        }
+      ],
+      "description": "",
+      "category": "Namkeen"
+    },
+    {
+      "id": "20",
+      "name": "Red Chikodi",
+      "image": "./images/Red_Chikodi.webp",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 80
+        },
+        {
+          "quantity": "500gm",
+          "price": 150
+        },
+        {
+          "quantity": "1kg",
+          "price": 300
+        }
+      ],
+      "description": "",
+      "category": "Namkeen"
+    },
+    {
+      "id": "21",
+      "name": "Red Sakinalu",
+      "image": "./images/Red_Sakinalu.webp",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 80
+        },
+        {
+          "quantity": "500gm",
+          "price": 150
+        },
+        {
+          "quantity": "1kg",
+          "price": 300
+        }
+      ],
+      "description": "",
+      "category": "Namkeen"
+    },
+    {
+      "id": "22",
+      "name": "Ribbon Pakoda",
+      "image": "./images/Ribbon_Pakoda.webp",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 80
+        },
+        {
+          "quantity": "500gm",
+          "price": 150
+        },
+        {
+          "quantity": "1kg",
+          "price": 300
+        }
+      ],
+      "description": "",
+      "category": "Namkeen"
+    },
+    {
+      "id": "23",
+      "name": "Spicy Chana",
+      "image": "./images/Spicy_Chana.webp",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 80
+        },
+        {
+          "quantity": "500gm",
+          "price": 150
+        },
+        {
+          "quantity": "1kg",
+          "price": 300
+        }
+      ],
+      "description": "",
+      "category": "Namkeen"
+    },
+    {
+      "id": "24",
+      "name": "White Sakinalu",
+      "image": "./images/White_Sakinalu.webp",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 80
+        },
+        {
+          "quantity": "500gm",
+          "price": 150
+        },
+        {
+          "quantity": "1kg",
+          "price": 300
+        }
+      ],
+      "description": "",
+      "category": "Namkeen"
+    },
+    {
+      "id": "25",
+      "name": "Yellow_Chikodi",
+      "image": "./images/Yellow_Chikodi.webp",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 80
+        },
+        {
+          "quantity": "500gm",
+          "price": 150
+        },
+        {
+          "quantity": "1kg",
+          "price": 300
+        }
+      ],
+      "description": "",
+      "category": "Namkeen"
+    },
+    {
+      "id": "26",
+      "name": "Cashew",
+      "image": "./images/cashew.jpg",
+      "quantity": 15,
+      "variety": [
+        {
+          "quantity": "250gm",
+          "price": 250
+        },
+        {
+          "quantity": "500gm",
+          "price": 450
+        },
+        {
+          "quantity": "1kg",
+          "price": 800
+        }
+      ],
+      "description": "",
+      "category": "Dry Fruits"
     }
 ]
